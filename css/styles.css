@@ -1,0 +1,246 @@
+  /* Wufoo styles */
+  .hide,.cloak div,.cloak span,.likert.cloak tbody,.likert.cloak thead{display:none !important}.likert.cloak table{border:none}
+
+  /* reset form */
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+  }
+  
+  body {
+      /* background-color: #f36e21; */
+      background-color: #1b1b1b;
+  }
+  
+  /* Form | START */
+  .form-main-wrapper {    
+      margin: 0 auto;
+      padding: 0 0 1rem 0;
+      text-align: center;
+      background-color: #fff;
+  }
+  
+  form {
+      padding: 2rem 1rem 2rem 1rem;
+      text-align: left ;
+      background-color: #ebebeb;
+  }
+  
+  .hide {
+      display: none;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  li {
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  fieldset {
+      margin: 0;
+      padding: 0;
+      border: none;
+  }
+  
+  fieldset div {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+  }
+  
+  /* custom styles */
+  li.field-container {
+      margin-bottom: 3rem;
+  }
+  
+  .desc {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #4d4d4d;
+  }
+  
+  label {
+      text-align: center;
+  }
+  
+  .inputs.name {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+  }
+  
+  input {
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 95%;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: 1px solid #b3b3b3;
+  }
+  
+  
+  li.buttons .submit {
+    margin: 0 auto;
+    padding: 0.75rem 5.5rem;
+    width: min(100%, 400px);
+    display: flex;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f36e21;
+  }
+  
+  .cta-template.orange-bg {
+      margin-top: 2rem;
+      padding: 1rem 1rem;
+      width: min(100%, 25rem);
+      border: none;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #ffffff;
+      background-color: #FF6C0C;
+      transition: all 200ms ease;
+  }
+  
+  .cta-template.orange-bg:hover {
+      color: #ffffff;
+      background-color: #1b1b1b ;
+  }
+  
+  @media (min-width:600px) {
+      .form-main-wrapper {
+          width: min(100%, 45rem);
+      }
+
+      input {
+        width: 97%;
+      }
+      
+}
+
+  /* Form | END */
+
+
+/* Content | START */
+.main-content-container .header {
+    margin: 0 auto 0 auto;
+    width: min(100%, 45rem);
+}
+
+.form-main-wrapper h1 {
+    margin: 2rem 0 0 0;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    color: #77777a;
+}
+
+.form-main-wrapper h2 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    /* text-transform: uppercase; */
+    text-align: center;
+    font-weight: 900;
+    color: #f36e21;
+} 
+
+  .form-main-wrapper h3 {
+    margin-bottom: 2rem;
+}
+
+  .form-main-wrapper p {
+    margin-bottom: 1rem;
+  }
+
+
+.event-details-container .event-details {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+ 
+.event-details-container .event-details img {
+    width: 100px;
+}
+
+.event-details-container .event-details h3 {
+    margin-bottom: 0.1rem;
+    font-size: 1rem;
+    color: #535353;
+}
+
+.event-details-container .event-details p {
+    font-size: 0.9rem;
+    line-height: 140%;;
+    color: #77777a;
+}
+
+.event-details-container .event-details p .bold {
+    font-weight: 600;
+}
+
+.event-details-container .event-details p .pipe {
+    font-weight: 800;
+    color: #f36e21;
+}
+
+@media (min-width: 45rem) {
+    .event-details-container .event-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+     
+}
+
+ .additional-details-container .models-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+ .additional-details-container h2 {
+    margin: 2rem auto 0 auto;
+    width: min(100%, 500px);
+    font-size: 1.5rem;
+    line-height: 110%;
+    color: #f36e21;
+ }
+
+ .additional-details-container h3 {
+    margin: 0 auto 0.5rem auto;
+    width: min(100%, 270px);
+    font-size: 1rem;
+    font-weight: 600;
+    color: #77777a;
+ }
+
+ .additional-details-container button {
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background-color: #252525;
+ }
+
+ .additional-details-container button:hover {
+    color: #1b1b1b;
+    background-color: #e4e4e4;
+ }
+
+@media (min-width: 45rem) {
+    .additional-details-container .models-grid {
+        grid-template-columns: 1fr 1fr;
+     }
+}
+
+
+  /* Content | END */
